@@ -1,6 +1,6 @@
 package com.saptak;
 
-
+//Find the running sum of an 1d array
 public class RunSum {
 
     public static int[] runningsum(int[] arr)
