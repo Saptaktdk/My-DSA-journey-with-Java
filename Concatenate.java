@@ -1,5 +1,7 @@
 package com.saptak;
 
+//Concatenate two 1d arrays
+
 import java.util.Arrays;
 
 public class Concatenate {
