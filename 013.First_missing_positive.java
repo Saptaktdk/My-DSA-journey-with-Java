@@ -2,6 +2,8 @@ package com.saptak;
 
 import java.util.HashSet;
 
+//problem link: https://leetcode.com/problems/first-missing-positive/
+
 public class First_missing_positive {
     public static int helper(int[] nums)
     {
