@@ -1,5 +1,7 @@
 package com.saptak;
 
+//problem link: https://leetcode.com/problems/binary-search/
+
 public class Binary_Search {
     public static int B_Search(int[] nums,int target)
     {
