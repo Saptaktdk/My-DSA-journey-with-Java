@@ -3,6 +3,9 @@ package com.saptak;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+//problem link; https://leetcode.com/problems/intersection-of-two-arrays-ii/
+
+
 public class Intersection_of_2arrays_II {
     public static int[] helper(int[] nums1, int[] nums2)
     {
