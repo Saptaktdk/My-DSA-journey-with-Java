@@ -3,6 +3,8 @@ package com.saptak;
 import java.util.HashSet;
 import java. util. Arrays;
 
+//problem link: https://leetcode.com/problems/intersection-of-two-arrays/
+
 public class Intersection_of_2arrays {
     public static int[] helper(int[] nums1, int[] nums2)
     {
