@@ -2,6 +2,8 @@ package com.saptak;
 
 import java.util.Arrays;
 
+//problem link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
 public class First_and_last_position {
     public static int find_first(int[] nums, int target)
     {
