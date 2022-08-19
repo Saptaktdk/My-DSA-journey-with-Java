@@ -1,5 +1,7 @@
 package com.saptak;
 
+//problwm link: https://leetcode.com/problems/reach-a-number/
+
 public class Reach_a_number {
     public static int helper(int target)
     {
