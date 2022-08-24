@@ -1,5 +1,7 @@
 package com.saptak;
 
+//problem link: https://leetcode.com/problems/power-of-two/
+
 public class Power_of_two {
     public static boolean helper(int n)
     {
