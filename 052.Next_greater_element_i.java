@@ -1,5 +1,7 @@
 package com.saptak;
 
+//problem link: https://leetcode.com/problems/next-greater-element-i/
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Stack;
