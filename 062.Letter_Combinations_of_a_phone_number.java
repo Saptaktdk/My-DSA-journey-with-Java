@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
+//problem link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
 public class Letter_Combinations_of_a_phone_number {
 
     private static HashMap<Character,ArrayList<String>> map = new HashMap<>();
