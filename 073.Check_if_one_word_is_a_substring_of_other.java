@@ -11,7 +11,14 @@ public class Check_if_one_word_is_a_substring_of_other {
     public static void isSubstring(String s1, String s2)
     {
         boolean res = s1.contains(s2);
-        System.out.print(res);
+        if(s1.length() != s2.length())
+        {
+            System.out.print("false");
+        }
+        else
+        {
+            System.out.print(res);
+        }
     }
 
     public static void main(String[] args) {
