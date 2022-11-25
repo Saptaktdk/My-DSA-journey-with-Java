@@ -1,0 +1,18 @@
+// Floyd-Warshall(w) ...w stands for weight of a node
+
+1. n <- row(w) ....no of rows is equal to no of verices
+
+2. D(o) <- w .....D(o) contains direct weights given in the graph
+
+3. for k <- 1 to n
+ 
+4.       do for i <- 1 to n
+
+5.          do for j <- 1 to n
+
+6.             do d^k(ij) <- min(d^k-1(ij), d^k-1(ik) + d^k-1(jk))   ....(ij) stands for suffix
+
+7. return D^n
+
+                        
+                    ...END....

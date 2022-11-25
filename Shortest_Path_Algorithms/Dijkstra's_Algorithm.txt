@@ -1,0 +1,34 @@
+//Dijkstra's Algorithm:
+
+Dijkstra (G,w,s) ....G -> Graph, w -> weight of the edges, s -> source
+
+1. Initialize single-source (G,s)
+
+2. s <- phi ...make the weight of the source as 0
+
+3. Q <- v[G] ...adding all the vertices of the graph to the queue
+
+4. While Q != 0
+
+5.      do u <- Extract-min(Q) ...extract the minimum value in queue and assign it to u
+
+6.         s <- s{u}
+
+7.              for each vertex v adj[u]
+ 
+8.                 do Relax(u,v,w) 
+
+
+
+....................................................................................................
+
+
+*Relax(u,v,w) .....u is the source, v is the destination, w is the weight of the edges 
+
+if d[v] > d[u] + w(u,v)
+
+    then d[v] <- d[u] + w(u,v)
+
+         x[v] <- u
+
+            
