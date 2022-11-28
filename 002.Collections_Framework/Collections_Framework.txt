@@ -1,0 +1,50 @@
+# Collection Framework
+....................................................................................................................................
+
+Collection Framework includes:
+
+* Collection Interface
+
+* Map Interface
+
+* Iterator
+
+
+#                                  Collection Interface 
+                                     ............
+                                          |
+           ...............................................................             
+           |                              |                              |                                                   
+         (List                            Set                           Queue)---------------------------> Interfaces                                                
+           |                              |                              |                                                      
+           |-Arraylist                    |-EnumSet                      |-Array Dequeue  ------------|            
+           |                              |                              |                            |                                                   
+           |-Linkedlist                   |-MathSet                      |-Linked List                |                                         
+           |                              |                              |                            |                                                   
+           |-Stack                        |-LinkedHashSet                |-Priority Queue             |--> Classes                                        
+           |                              |                                                           |                                                   
+           |-Vector                       |-TreeSet                                                   |                                     
+                                                                                          ------------|                                                   
+                                                                                                                                             
+                                                                                                                                                  
+
+
+
+#         Map
+           |
+           |-HashMap
+           |
+           |-TreeMap  
+           |
+           |-EnumMap   
+           |
+           |-LinkedHashMap
+           |
+           |-WeakHashMap
+
+
+
+
+#       Iterator  
+           |
+           |-List Iterators
